@@ -45,11 +45,12 @@ Users should be able to:
 - [React](https://react.dev/) - JavaScript library
 - [Node.js](https://nodejs.org/) - JavaScript runtime environment
 - [Vite](https://vitejs.dev/) - React build tool with local development server
+- [Advice Slip JSON API](https://api.adviceslip.com/) - API that generates random advice
 
 ### What I learned
 
-- I learned how to consume `APIs`. After reading the documentation, I used the `fetch()` function to make HTTP requests to the [Advice Slip JSON API](https://api.adviceslip.com/) endpoints. On receiving response, data is processed to extract the advice and ID used to update the `state` of the app. I also wrote code to handle errors.
-  - I also learned that I could pass the function that makes the API call and updates the state to the button as `props` so that the button can be used to trigger the state change.
+- I learned how to consume `APIs`. After reading the documentation, I used the `fetch()` function to make `HTTP requests` to the [Advice Slip JSON API](https://api.adviceslip.com/) endpoints. On receiving response, data is processed to extract the advice and ID used to update the `state` of the app. I also wrote code to `handle errors`.
+  - I also learned that I could pass the `function` that makes the `API call` and updates the state to the `button` as `props` so that the button can be used to trigger the state change. In my case, the `getAdvice` function.
 
 ```js
 import { useState } from "react";
@@ -66,7 +67,7 @@ const App = () => {
     "It is easy to sit up and take notice, what's difficult is getting up and taking action."
   );
 
-  const GetAdvice = () => {
+  const getAdvice = () => {
     fetch("https://api.adviceslip.com/advice")
       .then((response) => response.json())
       .then((data) => {
@@ -93,7 +94,7 @@ const App = () => {
             <PatternDividerMobile />
           </div>
           <div className="ButtonContainer">
-            <Button onclick={GetAdvice} />
+            <Button onclick={getAdvice} />
           </div>
         </div>
       </main>
