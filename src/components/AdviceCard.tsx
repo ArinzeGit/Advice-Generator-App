@@ -7,7 +7,7 @@ interface Props {
 
 const AdviceCard = ({ adviceId, children }: Props) => {
   return (
-    <div className="AdviceCard">
+    <div className="advice-card">
       <h1
         style={{
           fontFamily: "Manrope",

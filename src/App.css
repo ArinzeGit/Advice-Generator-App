@@ -12,7 +12,7 @@ body {
   padding: 0;
 }
 
-.App{
+.app{
   background-color:hsl(218, 23%, 16%);
   color: white;
   min-height: 100vh;
@@ -24,16 +24,16 @@ body {
 }
 
 @media screen and (max-width: 580px) {
-  .App {
+  .app {
     padding:119.8px 0 33px;
   }
 }
 
-.CardContainer{
+.card-container{
   Position:relative;
 }
 
-.PatternDividerDesktop{
+.pattern-divider-desktop{
   Position:absolute;
   left:50%;
   bottom:4.22rem;
@@ -41,7 +41,7 @@ body {
   display: block;
 }
 
-.PatternDividerMobile{
+.pattern-divider-mobile{
   Position:absolute;
   left:50%;
   bottom:4.22rem;
@@ -50,16 +50,16 @@ body {
 }
 
 @media screen and (max-width: 580px) {
-  .PatternDividerDesktop{
+  .pattern-divider-desktop{
     display: none;
   }
 
-  .PatternDividerMobile{
+  .pattern-divider-mobile{
     display: block;
   }
 }
 
-.ButtonContainer{
+.button-container{
   Position:absolute;
   left:50%;
   bottom: 0px;

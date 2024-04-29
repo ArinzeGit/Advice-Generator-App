@@ -1,4 +1,4 @@
-.AdviceCard{
+.advice-card{
     background-color: hsl(217, 19%, 24%);
     width: 540px;
     text-align: center;
@@ -7,7 +7,7 @@
 }
 
 @media screen and (max-width: 580px) {
-    .AdviceCard{
+    .advice-card{
         width: 358px;
         padding: 2rem 8px 6.375rem;
     }

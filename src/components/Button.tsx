@@ -7,8 +7,8 @@ interface Props {
 
 const Button = ({ onclick }: Props) => {
   return (
-    <button className="Button" onClick={onclick}>
-      <img className="ButtonImage" src={dice} alt="Dice image" />
+    <button className="button" onClick={onclick}>
+      <img className="button-image" src={dice} alt="Dice image" />
     </button>
   );
 };

@@ -1,4 +1,4 @@
-.Button{
+.button{
     background-color: hsl(150, 100%, 66%);
     border: none;
     border-radius: 50%;
@@ -7,12 +7,12 @@
     position: relative;    
 }
 
-.Button:hover{
+.button:hover{
     cursor: pointer;
     box-shadow:0 0 50px 0 hsl(150, 100%, 66%) ;
 }
 
-.ButtonImage{
+.button-image{
     position: absolute;
     top: 50%;
     left: 50%;
