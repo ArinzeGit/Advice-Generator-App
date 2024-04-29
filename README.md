@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: View the GitHub repository [here](https://github.com/ArinzeGit/Advice-Generator-App)
-- Live Site URL: I have hosted the project on GitHub Pages [here]()
+- Live Site URL: I have hosted the project on GitHub Pages [here](https://arinzegit.github.io/Advice-Generator-App/)
 
 ## My process
 
