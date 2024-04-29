@@ -83,17 +83,17 @@ const App = () => {
   };
 
   return (
-    <div className="App">
+    <div className="app">
       <main>
-        <div className="CardContainer">
+        <div className="card-container">
           <AdviceCard adviceId={id}>{advice}</AdviceCard>
-          <div className="PatternDividerDesktop">
+          <div className="pattern-divider-desktop">
             <PatternDividerDesktop />
           </div>
-          <div className="PatternDividerMobile">
+          <div className="pattern-divider-mobile">
             <PatternDividerMobile />
           </div>
-          <div className="ButtonContainer">
+          <div className="button-container">
             <Button onclick={getAdvice} />
           </div>
         </div>
