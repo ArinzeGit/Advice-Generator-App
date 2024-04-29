@@ -12,7 +12,7 @@ const App = () => {
     "It is easy to sit up and take notice, what's difficult is getting up and taking action."
   );
 
-  const GetAdvice = () => {
+  const getAdvice = () => {
     fetch("https://api.adviceslip.com/advice")
       .then((response) => response.json())
       .then((data) => {
@@ -39,7 +39,7 @@ const App = () => {
             <PatternDividerMobile />
           </div>
           <div className="ButtonContainer">
-            <Button onclick={GetAdvice} />
+            <Button onclick={getAdvice} />
           </div>
         </div>
       </main>
