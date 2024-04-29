@@ -1,0 +1,67 @@
+@font-face {
+  font-family:Manrope ;
+  src: url(./assets/font/Manrope-VariableFont_wght.ttf);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.App{
+  background-color:hsl(218, 23%, 16%);
+  color: white;
+  min-height: 100vh;
+  padding: 225px 0 33px;
+  display: flex;
+  justify-content: center;
+  align-items:start;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 580px) {
+  .App {
+    padding:119.8px 0 33px;
+  }
+}
+
+.CardContainer{
+  Position:relative;
+}
+
+.PatternDividerDesktop{
+  Position:absolute;
+  left:50%;
+  bottom:4.22rem;
+  transform: translate(-50%,0);
+  display: block;
+}
+
+.PatternDividerMobile{
+  Position:absolute;
+  left:50%;
+  bottom:4.22rem;
+  transform: translate(-50%,0);
+  display: none;
+}
+
+@media screen and (max-width: 580px) {
+  .PatternDividerDesktop{
+    display: none;
+  }
+
+  .PatternDividerMobile{
+    display: block;
+  }
+}
+
+.ButtonContainer{
+  Position:absolute;
+  left:50%;
+  bottom: 0px;
+  transform: translate(-50%,50%);
+}
