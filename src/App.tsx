@@ -43,6 +43,19 @@ const App = () => {
           </div>
         </div>
       </main>
+      <footer className="attribution-container">
+        <div className="attribution">
+          Challenge by{" "}
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+            Frontend Mentor
+          </a>
+          . Coded by{" "}
+          <a href="https://github.com/ArinzeGit" target="_blank">
+            Arinze Owoh
+          </a>
+          .
+        </div>
+      </footer>
     </div>
   );
 };

@@ -16,16 +16,20 @@ body {
   background-color:hsl(218, 23%, 16%);
   color: white;
   min-height: 100vh;
-  padding: 225px 0 33px;
-  display: flex;
-  justify-content: center;
-  align-items:start;
   overflow: hidden;
 }
 
+main{
+  min-height: 100vh;
+  padding: 225px 0 100px;
+  display: flex;
+  justify-content: center;
+  align-items:start;
+}
+
 @media screen and (max-width: 580px) {
-  .app {
-    padding:119.8px 0 33px;
+  main{
+    padding:119.8px 0 100px;
   }
 }
 
@@ -64,4 +68,21 @@ body {
   left:50%;
   bottom: 0px;
   transform: translate(-50%,50%);
+}
+
+.attribution-container{
+  position:relative;
+}
+
+.attribution {
+  font-size: 11px;
+  position:absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translate(-50%, 0);
+  color:hsl(30, 100%, 50%);
+}
+
+.attribution a {
+  color:  hsl(216, 53%, 50%);
 }
