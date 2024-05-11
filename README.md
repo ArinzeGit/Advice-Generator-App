@@ -27,7 +27,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Advice Generator App Screenshot](public/Advice%20Generator%20App%20Screenshot.PNG)
+![Advice Generator App Screenshot1](public/Advice%20Generator%20App%20Screenshot1.PNG)
+![Advice Generator App Screenshot2](public/Advice%20Generator%20App%20Screenshot2.PNG)
 
 ### Links
 
