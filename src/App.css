@@ -35,6 +35,13 @@ main{
 
 .card-container{
   Position:relative;
+  width: 540px;
+}
+
+@media screen and (max-width: 580px) {
+  .card-container{
+    width: min(90%,358px);
+  }
 }
 
 .pattern-divider-desktop{
@@ -75,7 +82,7 @@ main{
 }
 
 .attribution {
-  font-size: 11px;
+  font-size: .688rem;
   position:absolute;
   bottom: 1rem;
   left: 50%;

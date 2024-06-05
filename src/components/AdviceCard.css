@@ -1,14 +1,13 @@
 .advice-card{
     background-color: hsl(217, 19%, 24%);
-    width: 540px;
+    width: 100%;
     text-align: center;
-    padding: 2rem 48px 6.375rem;
+    padding: 2rem 3rem 6.375rem;
     border-radius: 1rem;
 }
 
 @media screen and (max-width: 580px) {
     .advice-card{
-        width: 358px;
-        padding: 2rem 8px 6.375rem;
+        padding: 2rem .5rem 6.375rem;
     }
 }
