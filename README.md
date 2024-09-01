@@ -1,6 +1,6 @@
 # Advice generator app
 
-A dynamic web application that fetches and displays random advice from an API upon button click, built using React and TypeScript. This project showcases my ability to integrate APIs and build interactive applications using React and TypeScript. It demonstrates skills in handling asynchronous data and creating a user-friendly experience. I got the design from the ['Advice generator app' challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db).
+A dynamic web application that fetches and displays random advice from an `API` upon button click, built using `React` and `TypeScript`. This project showcases my ability to integrate `APIs` and build interactive applications using `React` and `TypeScript`. It demonstrates skills in handling asynchronous data and creating a user-friendly experience. I got the design from the ['Advice generator app' challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db).
 
 ## Table of contents
 
