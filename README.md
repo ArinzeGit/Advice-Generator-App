@@ -1,6 +1,6 @@
 # Advice generator app
 
-This is my solution to the ['Advice generator app' challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db). Frontend Mentor challenges help me improve my coding skills by building realistic projects.
+A dynamic web application that fetches and displays random advice from an API upon button click, built using React and TypeScript as part of the ['Advice generator app' challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db). This project showcases my ability to integrate APIs and build interactive applications using React and TypeScript. It demonstrates skills in handling asynchronous data and creating a user-friendly experience.
 
 ## Table of contents
 
